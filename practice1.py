@@ -41,10 +41,14 @@ def main():
     arr = [1, 7, 5, 9, 2, 12, 3]
     k = 2
 
+    print("p_67 e --------------------------------------------------------------")
     print("arr = " + str(arr))
     print("k = " + str(k))
     print(str(p_67e_brute(arr, k)) + " pairs were found using brute force.")
     print(str(p_67e_optimized(arr, k)) + " pairs were found using optimized.")
+    print("---------------------------------------------------------------------")
+
+
 
 if __name__ == "__main__":
     main()
